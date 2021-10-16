@@ -17,6 +17,10 @@ class SearchBar extends React.Component {
         this.props.onSubmit(this.state.term);
     }
 
+    someFunc() {
+        return "some text";
+    }
+
     render() {
         return(
             <div className="ui segment">
